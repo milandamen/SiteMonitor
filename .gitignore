@@ -87,3 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+
+# Custom
+.kdev4/
+SiteMonitor.kdev4
+output/

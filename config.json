@@ -1,0 +1,17 @@
+{
+    "savedir": "./output",
+    "sites": [
+        {
+            "url": "http://darvit.nl",
+            "interval": 20
+        },
+        {
+            "url": "https://smp.darvit.nl",
+            "interval": 20
+        },
+        {
+            "url": "https://aidoru-online.org",
+            "interval": 20
+        }
+    ]
+}
