@@ -5,7 +5,7 @@ from app import config
 from app import monitor
 
 config = config.Config()
-monitor = monitor.Monitor(config.savedir)
+monitor = monitor.Monitor(config)
 
 for site in config.sites:
     monitor.addSite(site)

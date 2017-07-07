@@ -2,10 +2,10 @@ import app.clientthread as clientthread
 
 class Monitor:
     
-    def __init__(self, savedir):
+    def __init__(self, config):
         self.sites = []
         self.threads = []
-        self.savedir = savedir
+        self.savedir = config.savedir
     
     # Add a site to the monitor
     # param:

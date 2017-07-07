@@ -42,8 +42,8 @@ class ClientThread(threading.Thread):
         print("Result: " + resultStr)
         
         # Convert the site URL to a sha1 hash and use that as filename
-        savePath = self.savedir + hashlib.sha1(self.site.url.encode('utf-8')).hexdigest()
-        print("Saving to " + hashlib.sha1(self.site.url.encode('utf-8')).hexdigest())
+        savePath = self.savedir + self.site.hash
+        print("Saving to " + savePath)
         f = open(savePath, "a")
         f.write(resultStr)
         f.close()
